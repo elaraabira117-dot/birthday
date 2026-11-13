@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 210">
+<defs>
+ <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8ffff"/><stop offset=".22" stop-color="#58d7ff"/><stop offset=".58" stop-color="#277cff"/><stop offset="1" stop-color="#8b35ff"/></linearGradient>
+ <linearGradient id="wing2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5d9ff"/><stop offset=".45" stop-color="#9c5cff"/><stop offset="1" stop-color="#147dff"/></linearGradient>
+ <radialGradient id="shine"><stop stop-color="#fff"/><stop offset=".3" stop-color="#b8f7ff"/><stop offset="1" stop-color="#47aaff" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g filter="url(#glow)" stroke="#b9f5ff" stroke-width="1.5">
+ <g class="wing-left">
+  <path d="M116 99C91 37 30 6 15 38C-2 74 39 124 111 119C69 143 53 183 77 194C103 205 125 158 123 111Z" fill="url(#wing)"/>
+  <path d="M111 111C75 85 42 55 17 39M108 116C76 116 44 111 24 91M108 119C83 139 73 163 77 191M106 109C92 72 79 46 61 25" fill="none" opacity=".8"/>
+  <path d="M38 48C56 34 82 49 84 69C68 82 48 74 38 48Z" fill="url(#shine)" stroke="none"/>
+  <circle cx="38" cy="87" r="5" fill="#e8ffff"/><circle cx="78" cy="153" r="4" fill="#f7caff"/>
+ </g>
+ <g class="wing-right">
+  <path d="M124 99C149 37 210 6 225 38C242 74 201 124 129 119C171 143 187 183 163 194C137 205 115 158 117 111Z" fill="url(#wing2)"/>
+  <path d="M129 111C165 85 198 55 223 39M132 116C164 116 196 111 216 91M132 119C157 139 167 163 163 191M134 109C148 72 161 46 179 25" fill="none" opacity=".8"/>
+  <path d="M202 48C184 34 158 49 156 69C172 82 192 74 202 48Z" fill="url(#shine)" stroke="none"/>
+  <circle cx="202" cy="87" r="5" fill="#e8ffff"/><circle cx="162" cy="153" r="4" fill="#f7caff"/>
+ </g>
+ <path d="M120 83C111 101 112 137 120 157C128 137 129 101 120 83Z" fill="#f1faff" stroke="#7ee9ff" stroke-width="2"/>
+ <path d="M117 88Q92 55 79 62M123 88Q148 55 161 62" fill="none" stroke="#d8faff" stroke-width="2.4" stroke-linecap="round"/>
+ <circle cx="120" cy="82" r="4" fill="#fff"/>
+</g></svg>
